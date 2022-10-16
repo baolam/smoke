@@ -1,0 +1,91 @@
+absl-py==1.2.0
+aiohttp @ file:///C:/ci/aiohttp_1646806581161/work
+aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+arrow==1.2.3
+astunparse==1.6.3
+async-timeout @ file:///C:/b/abs_43ozhz2a8g/croots/recipe/async-timeout_1664876362767/work
+attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
+backoff==2.2.1
+blinker==1.4
+brotlipy==0.7.0
+cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
+certifi @ file:///C:/b/abs_ac29jvt43w/croot/certifi_1665076682579/work/certifi
+cffi @ file:///C:/Windows/Temp/abs_6808y9x40v/croots/recipe/cffi_1659598653989/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+colorama @ file:///C:/Windows/TEMP/abs_9439aeb1-0254-449a-96f7-33ab5eb17fc8apleb4yn/croots/recipe/colorama_1657009099097/work
+commonmark==0.9.1
+cryptography @ file:///C:/ci/cryptography_1652101729823/work
+dataclasses==0.6
+decorator==5.1.1
+flatbuffers==22.9.24
+frozenlist @ file:///C:/ci_310/frozenlist_1642081127310/work
+gast==0.4.0
+gitdb==4.0.9
+GitPython==3.1.29
+google-auth @ file:///opt/conda/conda-bld/google-auth_1646735974934/work
+google-auth-oauthlib @ file:///tmp/build/80754af9/google-auth-oauthlib_1617120569401/work
+google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
+gql==3.4.0
+graphql-core==3.2.3
+grpcio @ file:///C:/ci/grpcio_1655475084232/work
+h5py @ file:///C:/ci/h5py_1659089830381/work
+halo==0.0.31
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+importlib-metadata @ file:///C:/ci/importlib-metadata_1648544469310/work
+iniconfig==1.1.1
+libclang==14.0.6
+log-symbols==0.0.14
+Markdown @ file:///C:/ci_310/markdown_1642083972652/work
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci_310/mkl_random_1643050563308/work
+mkl-service==2.4.0
+multidict @ file:///C:/b/abs_49gd2k2bsh/croots/recipe/multidict_1662369343444/work
+numpy==1.23.4
+oauthlib @ file:///C:/b/abs_2eoymqc2ow/croot/oauthlib_1665490906043/work
+opencv-python==4.6.0.66
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.4.4
+Pillow==9.2.0
+pluggy==1.0.0
+protobuf==3.19.6
+py==1.11.0
+pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.13.0
+PyJWT @ file:///C:/ci/pyjwt_1657529477795/work
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
+pytest==7.1.3
+python-dateutil==2.8.2
+pytz==2022.4
+PyYAML==6.0
+requests @ file:///C:/ci/requests_1657735340829/work
+requests-oauthlib==1.3.0
+requests-toolbelt==0.10.0
+rich==12.6.0
+rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
+scipy @ file:///C:/ci/scipy_1661354257555/work
+shellingham==1.5.0
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.0
+spinners==0.0.24
+tabulate==0.9.0
+tensorboard-plugin-wit @ file:///C:/tf/b/tensorboard-plugin-wit_1660162132996/work/tensorboard_plugin_wit-1.8.1-py3-none-any.whl
+termcolor==1.1.0
+tomli==2.0.1
+transform==1.2.0
+transform-tools==1.0.5
+typing_extensions @ file:///C:/Windows/TEMP/abs_dd2d0moa85/croots/recipe/typing_extensions_1659638831135/work
+update-checker==0.18.0
+urllib3 @ file:///C:/Windows/TEMP/abs_65ynz4fdmi/croots/recipe/urllib3_1659110473919/work
+validators==0.20.0
+Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
+win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
+wincertstore==0.2
+wrapt @ file:///C:/Windows/Temp/abs_7c3dd407-1390-477a-b542-fd15df6a24085_diwiza/croots/recipe/wrapt_1657814452175/work
+xxhash==3.0.0
+yarl @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_e5nlunspj6/croots/recipe/yarl_1661437086516/work
+zipp @ file:///C:/ci/zipp_1652255909324/work
