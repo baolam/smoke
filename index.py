@@ -1,13 +1,21 @@
 import os
+# opencv-python
 import cv2
 import time
+# Gửi gói tin giữa thiết bị với server
 import requests
+import json
 
-SERVER = ""
-video = cv2.VideoCapture(0)
+server = ""
+video = cv2.VideoCapture(0) # Lấy ảnh từ camera
 static_frame = None
 counter = 0
 
+resp = requests.get("https://ciggarette-will-die.herokuapp.com/address")
+server = "http://" + resp.text + ":5000"
+print(server)
+
+# Logic (Đúng sai --> 0 hoặc 1 --> False hoặc True)
 while True:
   __, frame = video.read()
 
@@ -35,7 +43,7 @@ while True:
       break
 
   # Displaying image in gray_scale
-  # cv2.imshow("Gray Frame", gray)
+  cv2.imshow("Gray Frame", gray)
 
   # Displaying the difference in currentframe to
   # the staticframe(very first_frame)
@@ -43,10 +51,10 @@ while True:
 
   # Displaying the black and white image in which if
   # intensity difference greater than 30 it will appear white
-  cv2.imshow("Threshold Frame", thres_frame)
+  #cv2.imshow("Threshold Frame", thres_frame)
 
   # Displaying color frame with contour of motion of object
-  # cv2.imshow("Color Frame", frame)
+  #cv2.imshow("Color Frame", frame)
 
   key = cv2.waitKey(1)
   # if q entered whole process will stop
@@ -54,14 +62,16 @@ while True:
     # if something is movingthen it append the end time of movement
     break
   if motion:
-    file_name = "{}.png".format(time.time())
+    file_name = "{}.png".format("84917534042")
     cv2.imwrite(file_name, frame)
-    # with open(file_name, "rb") as fin:
-    #   resp = requests.post(SERVER + "/analyze", files={
-    #     "image" : fin.read()
-    #   })
-    #   print(resp.status_code)
+    with open(file_name, "rb") as fin:
+      resp = requests.post(server + "/analyze", files={
+        "image" : fin.read()
+      })
+      print(resp.status_code)
+      time.sleep(0.1)
     os.remove(file_name)
+    pass
   if counter == 3:
     counter = 0
     static_frame = gray 
